@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #ffcccc;
+}
+
+.bmi {
+  margin: 50px 30px;
+  background: linear-gradient(#ff0258, tomato);
+  padding: 1.6rem;
+  border-radius: 20px;
+}
+.bmi h2{
+   color: #fff;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+form{
+ display: flex;
+ flex-direction: column;
+}
+form label{
+  font-size: 15px;
+  color: #fff;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+form input{
+  padding: 8px;
+  background:linear-gradient(#ff4a69,#ff7060);
+  border:none;
+  border-radius: 5px;
+  
+}
+form button{
+  width: 120px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+  background-color: #ffff;
+  padding: 10px;
+  border: none;
+}
+form button:hover{
+  background-color: #ffcccc;
+}
+#main{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  }
+#main h3{
+ font-size: 15px;
+ margin-bottom: 10px;
+}
+#main h1{
+  padding: 20px ;
+  display: inline-block;
+  font-size: 50px;
+}
+.guide{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+.guide h3{
+ margin-bottom: 10px;
+}
+.guide p{
+ color: darkgray;
+}
+
+
+
